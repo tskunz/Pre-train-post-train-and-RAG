@@ -1,0 +1,28 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model Weights & Artifacts (Too large for Git)
+my_random_bert/
+general_embedding_model/
+pg_embedding_model_final/
+simcse_general_model/
+pg_simcse_embedding_model_final/
+gemma_lora_adapters/
+
+# Data (If you don't want to commit datasets)
+tonic_validate/
+*.csv
+*.json
+
+# Plots & Results
+*.png
+
+# Mac OS junk
+.DS_Store
