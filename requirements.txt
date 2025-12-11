@@ -1,0 +1,30 @@
+# Core Data Science & Math
+numpy
+pandas
+matplotlib
+scikit-learn
+tqdm
+
+# Deep Learning Frameworks
+torch
+accelerate
+
+# Hugging Face Ecosystem (Models, Datasets, Training)
+transformers
+sentence-transformers
+datasets
+huggingface-hub
+peft
+trl
+
+# Evaluation Metrics
+evaluate
+bert-score
+rouge-score
+
+# LLM APIs
+groq
+openai
+
+# Utility
+ipykernel
