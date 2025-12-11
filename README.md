@@ -24,7 +24,7 @@ The project is divided into three core components:
     * Benchmarked generation quality (BERTScore, ROUGE-L) and retrieval accuracy.
     * **Comparison**: Evaluated local models against an **OpenAI GPT-4o-mini** baseline.
 
-## 🛠️ Hardware & Requirements
+## Hardware & Requirements
 
 **Hardware Used:**
 * This project was developed and executed on **Google Colab Pro** using an **NVIDIA A100 GPU**.
@@ -61,12 +61,12 @@ The core logic is contained within the Jupyter Notebook: `Trevor_Kunz_GenAI_Fina
     * Fine-tune Gemma.
     * Run RAG Evaluation.
 
-## 📊 Key Results
+## Key Results
 
 * **Retrieval**: The **PG-Specific SimCSE** model demonstrated the highest semantic flexibility, achieving the best Average Retrieval Score (0.82) despite lower strict ranking metrics.
 * **Generation**: The **Base Adapter** (trained on raw text completion) achieved the highest BERT F1 score (0.75), competitively approaching the GPT-4o-mini baseline (0.79).
 * **Conclusion**: Domain adaptation on a 1.1B parameter model allows for performance within ~5% of proprietary frontier models for specialized tasks.
 
-## 📜 License
+## License
 
 [MIT License](LICENSE)
